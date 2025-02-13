@@ -33,7 +33,7 @@ public class ClienteRequest {
    private String nomeCompleto;
 
    @NotBlank(message = "O telefone celular é de preenchimento obrigatório!")
-   @Length(min = 15, max = 15, message = "O campo Fone tem que ter entre {min} e {max} caracteres")
+   @Length(min = 10, max = 15, message = "O campo Fone tem que ter entre {min} e {max} caracteres")
    private String foneCelular;
 
    @NotBlank(message = "O CPF é de preenchimento obrigatório!")
